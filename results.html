@@ -133,7 +133,7 @@
 
         <script>
         const params = new URLSearchParams(window.location.search);
-        const mbtiType = params.get('type');
+        const mbtiType = params.get('mbtiResult');
         document.getElementById('mbti-type').innerText = mbtiType;
         fetch('static/type_data.json')
             .then(res => res.json())
