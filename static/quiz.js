@@ -97,5 +97,5 @@ function submitQuiz() {
     (scores.J >= scores.P ? 'J' : 'P');
 
   localStorage.setItem('mbtiResult', resultType);
-  window.location.href = `result.html`; 
+  window.location.href = `results.html`; 
 }
