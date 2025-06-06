@@ -1,0 +1,545 @@
+[
+  {
+    "id": 1,
+    "dichotomy": "EI",
+    "question": "When in a social gathering, you prefer to:",
+    "options": [
+      { "text": "Join in conversations and meet many new people", "value": "E" },
+      { "text": "Stick to a few close friends and observe", "value": "I" }
+    ]
+  },
+  {
+    "id": 2,
+    "dichotomy": "EI",
+    "question": "You feel most energized when:",
+    "options": [
+      { "text": "Interacting with others", "value": "E" },
+      { "text": "Spending time alone", "value": "I" }
+    ]
+  },
+  {
+    "id": 3,
+    "dichotomy": "EI",
+    "question": "When making decisions, you tend to:",
+    "options": [
+      { "text": "Think out loud and discuss ideas", "value": "E" },
+      { "text": "Reflect quietly before sharing", "value": "I" }
+    ]
+  },
+  {
+    "id": 4,
+    "dichotomy": "EI",
+    "question": "In your free time, you prefer to:",
+    "options": [
+      { "text": "Go out with friends or attend events", "value": "E" },
+      { "text": "Enjoy solitary hobbies or quiet environments", "value": "I" }
+    ]
+  },
+  {
+    "id": 5,
+    "dichotomy": "EI",
+    "question": "You find it easier to:",
+    "options": [
+      { "text": "Approach strangers and start conversations", "value": "E" },
+      { "text": "Keep to yourself unless approached", "value": "I" }
+    ]
+  },
+  {
+    "id": 6,
+    "dichotomy": "EI",
+    "question": "When working in a team, you prefer to:",
+    "options": [
+      { "text": "Take an active role and lead discussions", "value": "E" },
+      { "text": "Listen carefully and contribute thoughtfully", "value": "I" }
+    ]
+  },
+  {
+    "id": 7,
+    "dichotomy": "EI",
+    "question": "After a long day, you recharge best by:",
+    "options": [
+      { "text": "Spending time with people", "value": "E" },
+      { "text": "Having quiet time alone", "value": "I" }
+    ]
+  },
+  {
+    "id": 8,
+    "dichotomy": "EI",
+    "question": "You enjoy conversations that are:",
+    "options": [
+      { "text": "Lively and frequent", "value": "E" },
+      { "text": "Deep and meaningful, even if less frequent", "value": "I" }
+    ]
+  },
+  {
+    "id": 9,
+    "dichotomy": "EI",
+    "question": "You are more drawn to:",
+    "options": [
+      { "text": "New people and experiences", "value": "E" },
+      { "text": "Familiar people and routines", "value": "I" }
+    ]
+  },
+  {
+    "id": 10,
+    "dichotomy": "EI",
+    "question": "When faced with a problem, you tend to:",
+    "options": [
+      { "text": "Talk it out with others", "value": "E" },
+      { "text": "Think it through quietly", "value": "I" }
+    ]
+  },
+  {
+    "id": 11,
+    "dichotomy": "EI",
+    "question": "In social situations, you tend to:",
+    "options": [
+      { "text": "Initiate interactions easily", "value": "E" },
+      { "text": "Wait for others to approach you", "value": "I" }
+    ]
+  },
+  {
+    "id": 12,
+    "dichotomy": "EI",
+    "question": "You prefer to communicate by:",
+    "options": [
+      { "text": "Talking on the phone or in person", "value": "E" },
+      { "text": "Writing emails or messages", "value": "I" }
+    ]
+  },
+  {
+    "id": 13,
+    "dichotomy": "EI",
+    "question": "You feel more comfortable:",
+    "options": [
+      { "text": "Being the center of attention", "value": "E" },
+      { "text": "Being in the background", "value": "I" }
+    ]
+  },
+  {
+    "id": 14,
+    "dichotomy": "EI",
+    "question": "When meeting someone new, you:",
+    "options": [
+      { "text": "Easily start a conversation", "value": "E" },
+      { "text": "Prefer to wait and observe", "value": "I" }
+    ]
+  },
+  {
+    "id": 15,
+    "dichotomy": "EI",
+    "question": "You are more energized by:",
+    "options": [
+      { "text": "Group activities", "value": "E" },
+      { "text": "Individual activities", "value": "I" }
+    ]
+  },
+
+  {
+    "id": 16,
+    "dichotomy": "SN",
+    "question": "You prefer to focus on:",
+    "options": [
+      { "text": "Facts and details", "value": "S" },
+      { "text": "Ideas and concepts", "value": "N" }
+    ]
+  },
+  {
+    "id": 17,
+    "dichotomy": "SN",
+    "question": "When learning something new, you like to:",
+    "options": [
+      { "text": "Learn through practical experience", "value": "S" },
+      { "text": "Learn through theories and abstract ideas", "value": "N" }
+    ]
+  },
+  {
+    "id": 18,
+    "dichotomy": "SN",
+    "question": "You are more interested in:",
+    "options": [
+      { "text": "What is actual and present", "value": "S" },
+      { "text": "What could be possible in the future", "value": "N" }
+    ]
+  },
+  {
+    "id": 19,
+    "dichotomy": "SN",
+    "question": "You trust:",
+    "options": [
+      { "text": "Your five senses and direct observation", "value": "S" },
+      { "text": "Your intuition and gut feelings", "value": "N" }
+    ]
+  },
+  {
+    "id": 20,
+    "dichotomy": "SN",
+    "question": "You tend to be more:",
+    "options": [
+      { "text": "Practical and realistic", "value": "S" },
+      { "text": "Imaginative and abstract", "value": "N" }
+    ]
+  },
+  {
+    "id": 21,
+    "dichotomy": "SN",
+    "question": "When solving problems, you prefer to:",
+    "options": [
+      { "text": "Focus on the details and facts", "value": "S" },
+      { "text": "Look at the big picture and patterns", "value": "N" }
+    ]
+  },
+  {
+    "id": 22,
+    "dichotomy": "SN",
+    "question": "You are more drawn to:",
+    "options": [
+      { "text": "Traditional methods", "value": "S" },
+      { "text": "Innovative approaches", "value": "N" }
+    ]
+  },
+  {
+    "id": 23,
+    "dichotomy": "SN",
+    "question": "In conversation, you prefer to:",
+    "options": [
+      { "text": "Talk about facts and real events", "value": "S" },
+      { "text": "Discuss ideas and theories", "value": "N" }
+    ]
+  },
+  {
+    "id": 24,
+    "dichotomy": "SN",
+    "question": "You prefer work that:",
+    "options": [
+      { "text": "Has clear instructions and structure", "value": "S" },
+      { "text": "Allows creativity and exploration", "value": "N" }
+    ]
+  },
+  {
+    "id": 25,
+    "dichotomy": "SN",
+    "question": "You are more likely to remember:",
+    "options": [
+      { "text": "Specific details and facts", "value": "S" },
+      { "text": "General impressions and concepts", "value": "N" }
+    ]
+  },
+  {
+    "id": 26,
+    "dichotomy": "SN",
+    "question": "You prefer to trust:",
+    "options": [
+      { "text": "Past experience", "value": "S" },
+      { "text": "Future possibilities", "value": "N" }
+    ]
+  },
+  {
+    "id": 27,
+    "dichotomy": "SN",
+    "question": "You are more comfortable with:",
+    "options": [
+      { "text": "Facts and what is known", "value": "S" },
+      { "text": "Ideas and what might be", "value": "N" }
+    ]
+  },
+  {
+    "id": 28,
+    "dichotomy": "SN",
+    "question": "You are drawn to:",
+    "options": [
+      { "text": "Realistic and concrete information", "value": "S" },
+      { "text": "Abstract and symbolic information", "value": "N" }
+    ]
+  },
+  {
+    "id": 29,
+    "dichotomy": "SN",
+    "question": "When given a task, you prefer:",
+    "options": [
+      { "text": "Clear guidelines and examples", "value": "S" },
+      { "text": "General ideas and freedom to explore", "value": "N" }
+    ]
+  },
+  {
+    "id": 30,
+    "dichotomy": "SN",
+    "question": "You tend to be:",
+    "options": [
+      { "text": "Detail-oriented", "value": "S" },
+      { "text": "Big-picture focused", "value": "N" }
+    ]
+  },
+
+  {
+    "id": 31,
+    "dichotomy": "TF",
+    "question": "When making decisions, you value:",
+    "options": [
+      { "text": "Logic and objective analysis", "value": "T" },
+      { "text": "Feelings and harmony", "value": "F" }
+    ]
+  },
+  {
+    "id": 32,
+    "dichotomy": "TF",
+    "question": "You believe a good decision is based on:",
+    "options": [
+      { "text": "Fairness and consistency", "value": "T" },
+      { "text": "Compassion and empathy", "value": "F" }
+    ]
+  },
+  {
+    "id": 33,
+    "dichotomy": "TF",
+    "question": "In conflicts, you tend to:",
+    "options": [
+      { "text": "Focus on the facts and solutions", "value": "T" },
+      { "text": "Consider people’s feelings", "value": "F" }
+    ]
+  },
+  {
+    "id": 34,
+    "dichotomy": "TF",
+    "question": "You respect people who are:",
+    "options": [
+      { "text": "Direct and straightforward", "value": "T" },
+      { "text": "Kind and caring", "value": "F" }
+    ]
+  },
+  {
+    "id": 35,
+    "dichotomy": "TF",
+    "question": "You feel better when you:",
+    "options": [
+      { "text": "Are honest even if it hurts", "value": "T" },
+      { "text": "Avoid hurting others’ feelings", "value": "F" }
+    ]
+  },
+  {
+    "id": 36,
+    "dichotomy": "TF",
+    "question": "You believe the best leaders are:",
+    "options": [
+      { "text": "Decisive and objective", "value": "T" },
+      { "text": "Supportive and understanding", "value": "F" }
+    ]
+  },
+  {
+    "id": 37,
+    "dichotomy": "TF",
+    "question": "When giving feedback, you prefer to:",
+    "options": [
+      { "text": "Be straightforward and clear", "value": "T" },
+      { "text": "Be gentle and encouraging", "value": "F" }
+    ]
+  },
+  {
+    "id": 38,
+    "dichotomy": "TF",
+    "question": "You find it easier to:",
+    "options": [
+      { "text": "Critique ideas without personal bias", "value": "T" },
+      { "text": "Express emotions and connect with others", "value": "F" }
+    ]
+  },
+  {
+    "id": 39,
+    "dichotomy": "TF",
+    "question": "In your friendships, you value:",
+    "options": [
+      { "text": "Honesty and fairness", "value": "T" },
+      { "text": "Emotional support and care", "value": "F" }
+    ]
+  },
+  {
+    "id": 40,
+    "dichotomy": "TF",
+    "question": "You prefer to make decisions based on:",
+    "options": [
+      { "text": "Objective criteria", "value": "T" },
+      { "text": "Personal values", "value": "F" }
+    ]
+  },
+  {
+    "id": 41,
+    "dichotomy": "TF",
+    "question": "You tend to be more:",
+    "options": [
+      { "text": "Analytical", "value": "T" },
+      { "text": "Compassionate", "value": "F" }
+    ]
+  },
+  {
+    "id": 42,
+    "dichotomy": "TF",
+    "question": "When working in a group, you focus on:",
+    "options": [
+      { "text": "Getting the task done efficiently", "value": "T" },
+      { "text": "Maintaining harmony among members", "value": "F" }
+    ]
+  },
+  {
+    "id": 43,
+    "dichotomy": "TF",
+    "question": "You are more comfortable with people who are:",
+    "options": [
+      { "text": "Logical and straightforward", "value": "T" },
+      { "text": "Warm and empathetic", "value": "F" }
+    ]
+  },
+  {
+    "id": 44,
+    "dichotomy": "TF",
+    "question": "You believe problems are best solved by:",
+    "options": [
+      { "text": "Careful analysis", "value": "T" },
+      { "text": "Understanding emotions", "value": "F" }
+    ]
+  },
+  {
+    "id": 45,
+    "dichotomy": "TF",
+    "question": "When under stress, you tend to:",
+    "options": [
+      { "text": "Detach and think logically", "value": "T" },
+      { "text": "Seek emotional support", "value": "F" }
+    ]
+  },
+
+  {
+    "id": 46,
+    "dichotomy": "JP",
+    "question": "You prefer to:",
+    "options": [
+      { "text": "Have a clear plan and schedule", "value": "J" },
+      { "text": "Keep your options open", "value": "P" }
+    ]
+  },
+  {
+    "id": 47,
+    "dichotomy": "JP",
+    "question": "When working on projects, you:",
+    "options": [
+      { "text": "Prefer to finish early", "value": "J" },
+      { "text": "Work best close to deadlines", "value": "P" }
+    ]
+  },
+  {
+    "id": 48,
+    "dichotomy": "JP",
+    "question": "You feel more comfortable when:",
+    "options": [
+      { "text": "Decisions are made", "value": "J" },
+      { "text": "Decisions can be changed later", "value": "P" }
+    ]
+  },
+  {
+    "id": 49,
+    "dichotomy": "JP",
+    "question": "Your workspace is usually:",
+    "options": [
+      { "text": "Organized and tidy", "value": "J" },
+      { "text": "Casual and flexible", "value": "P" }
+    ]
+  },
+  {
+    "id": 50,
+    "dichotomy": "JP",
+    "question": "When planning a trip, you:",
+    "options": [
+      { "text": "Make detailed plans ahead of time", "value": "J" },
+      { "text": "Decide as you go", "value": "P" }
+    ]
+  },
+  {
+    "id": 51,
+    "dichotomy": "JP",
+    "question": "You prefer your day to be:",
+    "options": [
+      { "text": "Structured and predictable", "value": "J" },
+      { "text": "Flexible and spontaneous", "value": "P" }
+    ]
+  },
+  {
+    "id": 52,
+    "dichotomy": "JP",
+    "question": "You tend to:",
+    "options": [
+      { "text": "Complete tasks early", "value": "J" },
+      { "text": "Leave tasks open-ended", "value": "P" }
+    ]
+  },
+  {
+    "id": 53,
+    "dichotomy": "JP",
+    "question": "You feel stressed when:",
+    "options": [
+      { "text": "Things are uncertain or unplanned", "value": "J" },
+      { "text": "You have to stick to strict rules", "value": "P" }
+    ]
+  },
+  {
+    "id": 54,
+    "dichotomy": "JP",
+    "question": "You prefer to make decisions:",
+    "options": [
+      { "text": "Quickly and confidently", "value": "J" },
+      { "text": "After considering many options", "value": "P" }
+    ]
+  },
+  {
+    "id": 55,
+    "dichotomy": "JP",
+    "question": "Your home is usually:",
+    "options": [
+      { "text": "Neat and orderly", "value": "J" },
+      { "text": "Casual and lived-in", "value": "P" }
+    ]
+  },
+  {
+    "id": 56,
+    "dichotomy": "JP",
+    "question": "You tend to prefer:",
+    "options": [
+      { "text": "Having things settled", "value": "J" },
+      { "text": "Keeping options open", "value": "P" }
+    ]
+  },
+  {
+    "id": 57,
+    "dichotomy": "JP",
+    "question": "When given a new assignment, you:",
+    "options": [
+      { "text": "Plan out the steps immediately", "value": "J" },
+      { "text": "Jump in and adapt as you go", "value": "P" }
+    ]
+  },
+  {
+    "id": 58,
+    "dichotomy": "JP",
+    "question": "You feel more comfortable with:",
+    "options": [
+      { "text": "Schedules and deadlines", "value": "J" },
+      { "text": "Flexibility and spontaneity", "value": "P" }
+    ]
+  },
+  {
+    "id": 59,
+    "dichotomy": "JP",
+    "question": "You prefer to:",
+    "options": [
+      { "text": "Make lists and check things off", "value": "J" },
+      { "text": "Keep plans informal", "value": "P" }
+    ]
+  },
+  {
+    "id": 60,
+    "dichotomy": "JP",
+    "question": "When organizing your day, you:",
+    "options": [
+      { "text": "Like to plan ahead", "value": "J" },
+      { "text": "Take things as they come", "value": "P" }
+    ]
+  }
+]
