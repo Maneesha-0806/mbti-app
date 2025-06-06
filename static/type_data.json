@@ -1,0 +1,82 @@
+{
+  "ENFJ": {
+    "description": "\"THE TEACHER\"\nENFJs are people-focused individuals, who enjoy creating possibilities to help others with their long-term development. They understand the views of others and possess the communication skills needed in many occupations, especially in teaching and counseling. ENFJs prefer to learn new things and prefer environments that offer variety, problem solving, a focus on the future, and opportunities to be supportive of others and fulfill their humanitarian values.",
+    "careers": ["Teacher", "Counselor", "Psychologist", "Human Resources Manager"],
+    "celebrities": ["Barack Obama", "Oprah Winfrey", "Martin Luther King Jr.", "Maya Angelou"]
+  },
+  "ENTJ": {
+    "description": "\"THE COMMANDER\"\nENTJs are bold, imaginative, and strong-willed leaders. They are known for being strategic and efficient, with a natural ability to organize and lead others to achieve goals. They enjoy challenges and strive for excellence.",
+    "careers": ["CEO", "Lawyer", "Management Consultant", "Project Manager"],
+    "celebrities": ["Steve Jobs", "Gordon Ramsay", "Franklin D. Roosevelt", "Harrison Ford"]
+  },
+  "ENTP": {
+    "description": "\"THE DEBATER\"\nENTPs are energetic and enthusiastic innovators who love exploring new ideas. They enjoy mental sparring, challenging conventions, and are known for their quick wit and curiosity. They dislike routine and thrive on change.",
+    "careers": ["Entrepreneur", "Marketing Manager", "Journalist", "Creative Director"],
+    "celebrities": ["Thomas Edison", "Mark Twain", "Robert Downey Jr.", "Tom Hanks"]
+  },
+  "ENFP": {
+    "description": "\"THE CAMPAIGNER\"\nENFPs are imaginative and enthusiastic individuals who value connections and authenticity. They are empathetic, love exploring possibilities, and bring energy and creativity into any environment.",
+    "careers": ["Writer", "Marketing Specialist", "Actor", "Public Relations Manager"],
+    "celebrities": ["Robin Williams", "Will Smith", "Robert Downey Jr.", "Ellen DeGeneres"]
+  },
+  "INFJ": {
+    "description": "\"THE ADVOCATE\"\nINFJs are insightful, idealistic, and compassionate. They are driven by their values and desire to help others achieve personal growth. Often seen as quiet visionaries, they are deeply intuitive and empathetic.",
+    "careers": ["Psychologist", "Social Worker", "Writer", "Teacher"],
+    "celebrities": ["Carl Jung", "Benedict Cumberbatch", "Nicole Kidman", "Nelson Mandela"]
+  },
+  "INFP": {
+    "description": "\"THE MEDIATOR\"\nINFPs are introspective, empathetic, and guided by strong personal values. They are creative and idealistic, seeking meaning and harmony in their work and relationships.",
+    "careers": ["Writer", "Artist", "Counselor", "Librarian"],
+    "celebrities": ["J.K. Rowling", "William Shakespeare", "Johnny Depp", "Princess Diana"]
+  },
+  "INTJ": {
+    "description": "\"THE MASTERMIND\"\nINTJs are strategic, logical, and independent thinkers. They value intelligence, competence, and are driven by a desire to understand complex systems and ideas. They often excel in long-term planning.",
+    "careers": ["Scientist", "Software Engineer", "Lawyer", "Entrepreneur"],
+    "celebrities": ["Elon Musk", "Mark Zuckerberg", "Arnold Schwarzenegger", "Friedrich Nietzsche"]
+  },
+  "INTP": {
+    "description": "\"THE ARCHITECT\"\nINTPs are analytical, independent, and innovative. They love problem-solving and theoretical exploration, often losing themselves in thought. They are driven by a quest for knowledge and truth.",
+    "careers": ["Philosopher", "Mathematician", "Software Developer", "Theoretical Physicist"],
+    "celebrities": ["Albert Einstein", "Bill Gates", "Marie Curie", "Isaac Newton"]
+  },
+  "ESFJ": {
+    "description": "\"THE PROVIDER\"\nESFJs are warm-hearted, conscientious, and cooperative. They are attentive to the needs of others and often take on responsibility for organizing and maintaining harmony in their surroundings.",
+    "careers": ["Nurse", "Teacher", "Social Worker", "Event Planner"],
+    "celebrities": ["Taylor Swift", "Jennifer Garner", "Bill Clinton", "Anne Hathaway"]
+  },
+  "ESTJ": {
+    "description": "\"THE EXECUTIVE\"\nESTJs are practical, organized, and dependable. They are natural leaders who value structure, tradition, and efficiency. They thrive in roles that require managing people, systems, or logistics.",
+    "careers": ["Military Officer", "Judge", "Police Officer", "Banker"],
+    "celebrities": ["Judge Judy", "John D. Rockefeller", "Sonia Sotomayor", "Michelle Obama"]
+  },
+  "ESFP": {
+    "description": "\"THE PERFORMER\"\nESFPs are outgoing, spontaneous, and fun-loving. They love being the center of attention and are energized by experiences. They bring excitement and joy to social situations.",
+    "careers": ["Entertainer", "Tour Guide", "Sales Representative", "Actor"],
+    "celebrities": ["Marilyn Monroe", "Elvis Presley", "Miley Cyrus", "Jamie Oliver"]
+  },
+  "ESTP": {
+    "description": "\"THE ENTREPRENEUR\"\nESTPs are energetic, action-oriented, and love living in the moment. They enjoy risk-taking and solving problems through direct experience. They thrive in fast-paced and dynamic environments.",
+    "careers": ["Stockbroker", "Paramedic", "Athlete", "Detective"],
+    "celebrities": ["Ernest Hemingway", "Bruce Willis", "Madonna", "Winston Churchill"]
+  },
+  "ISFJ": {
+    "description": "\"THE DEFENDER\"\nISFJs are kind, reliable, and detail-oriented. They are committed to helping others and preserving harmony. They often take quiet pride in their work and value responsibility and loyalty.",
+    "careers": ["Nurse", "Librarian", "Administrative Assistant", "Elementary School Teacher"],
+    "celebrities": ["Mother Teresa", "Queen Elizabeth II", "Beyoncé", "Kate Middleton"]
+  },
+  "ISTJ": {
+    "description": "\"THE INSPECTOR\"\nISTJs are responsible, serious, and methodical. They value facts, logic, and organization. They work hard to meet their obligations and are dependable team members or leaders.",
+    "careers": ["Accountant", "Auditor", "Lawyer", "Police Officer"],
+    "celebrities": ["George Washington", "Natalie Portman", "Angela Merkel", "Warren Buffett"]
+  },
+  "ISFP": {
+    "description": "\"THE ADVENTURER\"\nISFPs are gentle, sensitive, and artistic. They appreciate beauty and express themselves through art or action. They value personal freedom and prefer to go with the flow.",
+    "careers": ["Artist", "Chef", "Photographer", "Physical Therapist"],
+    "celebrities": ["Bob Dylan", "Frida Kahlo", "Britney Spears", "Michael Jackson"]
+  },
+  "ISTP": {
+    "description": "\"THE VIRTUOSO\"\nISTPs are analytical, practical, and hands-on problem solvers. They enjoy understanding how things work and excel in working with tools, machines, or systems.",
+    "careers": ["Engineer", "Mechanic", "Pilot", "Detective"],
+    "celebrities": ["Clint Eastwood", "Bruce Lee", "Scarlett Johansson", "Tom Cruise"]
+  }
+}
