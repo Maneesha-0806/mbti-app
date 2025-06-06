@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwport" content="width=device-width, inital-scale=1">
+        <title>16You</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet"/>
+        <script src="static/quiz.js"></script>
+        <style>
+            body{
+                background-color: #FFFFFF;                
+            }
+            h1{
+                font-family: "Playwrite DE Grund", cursive;
+                font-weight: 400;
+                color:#FF6B6B;
+            }
+            h2{
+                font-family: "Playwrite DE Grund", cursive;
+                font-weight: 300;
+            }
+            h3{
+                font-family: "Playwrite DE Grund", cursive;
+                font-style: italic;
+                color: #6BCB77;
+            }
+            h5{
+                font-family: "Playwrite DE Grund", cursive;
+                font-weight: 300;
+                color:#FF6B6B;
+            }
+            p,a{
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+            }
+            .navbar-brand{
+                font-family: "Playwrite DE Grund", cursive;
+                font-size: 2rem;
+                font-weight: 200;
+            }
+            .nav-link{
+                font-size: 1.5rem;
+            }
+            .container{
+                text-align: center;
+            }
+            .text-body-secondary{
+                color: #8D99AE;
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            .text-muted{
+                color:#8D99AE;
+            }
+            .type{
+                color: #6BCB77;
+            }
+            .btn{
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+                font-weight: 600;
+                font-size: 1.5rem;
+            }
+            .lead{
+                font-size: 1.7rem;
+                font-weight: 600;
+            }
+            .list-group-item{
+                font-family: "Alumni Sans Pinstripe", sans-serif;
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+            .card{
+                background-color: #FFF8F0;
+            }
+            .btn-outline-primary{
+                color:#4D96FF;
+                border-color:#4D96FF;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand my-3" href="#">16You</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="what.html">What's MBTI</a></li>
+                <li class="nav-item"><a class="nav-link active" href="quiz.html">What's your type</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <div class="container mt-5 mb-5">
+            <div id="result-container" class="card shadow px-4 py-3">
+            <h2 class="text-center mb-4">Your MBTI Type: <span id="mbti-type" class="type"></span></h2>
+            <p id="type-description" class="lead"></p>
+
+            <div class="mt-3">
+                <h5>Suggested Careers:</h5>
+                <ul id="career-list" class="list-group list-group-flush"></ul>
+            </div>
+            <div class="mt-3">
+                <h5>Famous Personalities:</h5>
+                <ul id="celebrities-list" class="list-group list-group-flush"></ul>
+            </div>
+
+            <div class="mt-4 text-center mb-5">
+                <a href="quiz.html" class="btn btn-outline-primary">Retake Quiz</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-fluid fixed-bottom bg-dark text-light"> 
+            <footer class="d-flex flex-wrap justify-content-between align-items-center p-2 m-2"> 
+                <div class="col-md-4 d-flex align-items-center">  
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2025 16You</span> 
+                </div> 
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </footer> 
+        </div>
+
+        <script>
+        const params = new URLSearchParams(window.location.search);
+        const mbtiType = params.get('type');
+        document.getElementById('mbti-type').innerText = mbtiType;
+        fetch('static/type_data.json')
+            .then(res => res.json())
+            .then(data => {
+            const typeData = data[mbtiType];
+            if (!typeData) throw new Error("Invalid MBTI type.");
+            document.getElementById('type-description').innerText = typeData.description;
+            const careerList = document.getElementById('career-list');
+            typeData.careers.forEach(career => {
+                const li = document.createElement('li');
+                li.className = "list-group-item";
+                li.innerText = career;
+                careerList.appendChild(li);
+            });
+            const celebList = document.getElementById('celebrities-list');
+            typeData.celebrities.forEach(name => {
+                const li = document.createElement('li');
+                li.className = "list-group-item";
+                li.innerText = name;
+                celebList.appendChild(li);
+            });
+            })
+            .catch(err => {
+            console.error("Error loading type data:", err);
+            document.getElementById('result-container').innerHTML = `<p class="text-danger">Failed to load results. Please try again later.</p>`;
+            });
+        </script>
+
+    </body>
+</html>
