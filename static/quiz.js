@@ -11,7 +11,7 @@ const scores = {
 
 window.onload = async () => {
   try {
-    const res = await fetch('questions.json');
+    const res = await fetch('static/questions.json');
     questions = await res.json();
 
     if (!Array.isArray(questions)) {
