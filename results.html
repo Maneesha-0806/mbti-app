@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet"/>
-        <script src="static/quiz.js"></script>
+        
         <style>
             body{
                 background-color: #FFFFFF;                
@@ -132,8 +132,7 @@
         </div>
 
         <script>
-        const params = new URLSearchParams(window.location.search);
-        const mbtiType = params.get('mbtiResult');
+        const mbtiType = localStorage.getItem('mbtiResult');
         document.getElementById('mbti-type').innerText = mbtiType;
         fetch('static/type_data.json')
             .then(res => res.json())
